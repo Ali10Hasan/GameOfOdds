@@ -12,7 +12,8 @@ let btn = document.querySelector(".btn1");
     let num1=document.querySelector(".number1");
     let score;
     console.log(btn);
-    image.src = '/images/image-rules-bonus.svg';
+    image.src = 'image-rules-bonus.svg';
+    image.classList.add("ruleImage");
     ele.appendChild(image);
     ele.style.width = 'fit-content';
     ele.style.position = 'absolute';
@@ -138,7 +139,7 @@ images.forEach((e,i)=>{
                 </div>
             </header>
             <p class="userp" style="width:70%;height:100%; display:flex; justify-content:center; position:absolute;top:300px; left:35px; color:white;font-size:25px">YOU PICKED</p>
-            <p class="computerp" style="width:70%;height:100%; display:flex; justify-content:center; position:absolute;top:300px; left:375px; color:white;font-size:25px">THE HOUSE PICKED</p>
+            <p class="computerp" style="width:70%;height:100%; display:flex; justify-content:center; position:absolute;top:300px; left:375px; color:white;font-size:25px">Computer PICKED</p>
         `;
         
      let num=document.querySelector(".number");
