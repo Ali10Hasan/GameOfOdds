@@ -1,0 +1,272 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+body{
+     background-color:  hsl(214, 47%, 23%);
+    height: 100% !important;
+    }
+header{
+    /* height: 100vh; */
+    width: 40%;
+    margin-left: 450px;
+     margin-top: 50px;
+ background-color:  hsl(214, 47%, 23%);
+}
+.box{
+    display: grid;
+     grid-template-rows: 50% 50%;
+     grid-template-areas: 
+     "radio score"
+     ;
+     height: 160px;
+     border: 3px solid  hsl(217, 16%, 45%);   
+     border-radius: 16px;   
+    }
+.radio{
+    margin-left: 20px;
+    margin-top: 20px;
+    color:rgb(228, 228, 228);
+    font-weight: bold;
+    grid-template: radio;
+}
+.score{
+    color: rgba(0, 0, 0, 0.514);
+    font-weight: bold;
+    font-size: 18px;
+    background-color: white !important;
+    width:39%;
+    height: 138px;
+    margin-top: 10px;
+   margin-left: 250px;
+   border-radius: 10px;
+
+}
+.score p{
+    margin-top: 35px;
+    margin-left: 40px;
+    font-size: 25px;
+}
+.score .number1{
+    font-size: 60px;
+    color: rgba(0, 0, 0, 0.788);
+    margin-left: 50px;
+}
+section{
+    margin-top: 100px;
+}
+.rock,.paper,.SCISSORS,.lizard,.spock{
+    width: 150px;
+    height: 150px;    
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+}
+.rock{
+    background-color: hsl(349, 71%, 52%);
+    right: 570px;
+    top: -70px;
+}
+.item1{
+    display: flex;
+    justify-content: space-between;
+}
+.item2{
+    display: flex;
+    justify-content: space-between;
+}
+.paper{
+    
+    background-color:  hsl(230, 89%, 62%);
+    right: 520px;
+    top: -90px;
+}
+
+.SCISSORS{
+    /* margin: a; */
+    background-color: hsl(39, 89%, 49%);
+    left: 690px;
+    top: -50px;
+}
+.lizard{
+    background-color: rgb(136, 54, 212);
+    left: 590px;
+    top: -65px;
+}
+.spock{
+    background-color:  hsl(189, 59%, 53%);
+    left: 520px;
+    top:-85px;
+}
+.content{
+    width: 90%;
+    height: 38vh;
+    background-image: url(/images/bg-pentagon.svg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    /* position: relative; */
+}
+.fix{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.line{
+   
+    width: 20px;
+    height: 50px;
+    background-color: black;
+}
+.l1{
+     position: absolute;
+    
+}
+.image{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 50px;
+    padding: 10px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+.image img{
+    position: absolute;
+    top: 40px;
+    left: 30px;
+}
+.empty{
+    height: 170px;
+}
+button{
+    width: 120px;
+    float: right;
+    margin-right: 60px;
+    margin-top: -20px;
+    padding: 6px;
+    color: white;
+    border: 3px solid white;
+    background-color:  hsl(237, 49%, 15%);
+    cursor: pointer;
+}
+.txt{
+    font-size: 40px !important;
+    margin-left: 700px !important;
+}
+
+@media (max-width:700px) {
+ .rock,.paper,.SCISSORS,.lizard,.spock{
+    width: 150px;
+    height: 150px;    
+    border-radius: 50%;
+    position: relative;
+    margin-left: 40px;
+    cursor: pointer;
+}
+.rock{
+    background-color: hsl(349, 71%, 52%);
+    right: 80px;
+    top: -70px;
+}
+.item1{
+    display: flex;
+    justify-content: space-between;
+}
+.item2{
+    display: flex;
+    justify-content: space-between;
+}
+.paper{
+    
+    background-color:  hsl(230, 89%, 62%);
+    right: 10px;
+    top: -120px;
+}
+
+.SCISSORS{
+    /* margin: a; */
+    background-color: hsl(39, 89%, 49%);
+    left: 150px;
+    top: -90px;
+}
+.lizard{
+    background-color: rgb(136, 54, 212);
+    left: 20px;
+    top: -65px;
+}
+.spock{
+    background-color:  hsl(189, 59%, 53%);
+    left: -10px;
+    top:-125px;
+}
+ 
+button{
+    margin-top: 10px;
+    margin-right: 210px;
+    height: 50px;
+    width: 25%;
+    border-radius: 10px;
+}
+header{
+    /* height: 100vh; */
+    width: 90%;
+    margin-left: 20px;
+     margin-top: 50px;
+ background-color:  hsl(214, 47%, 23%);
+}
+.score{
+    color: rgba(0, 0, 0, 0.514);
+    font-weight: bold;
+    font-size: 18px;
+    background-color: white !important;
+    width:50%;
+    height: 138px;
+    margin-top: 10px;
+   margin-left: 120px;
+   border-radius: 10px;
+
+}
+.score p{
+    margin-top: 35px;
+    margin-left: 40px;
+    font-size: 25px;
+}
+.score .number1{
+    font-size: 60px;
+    color: rgba(0, 0, 0, 0.788);
+    margin-left: 50px;
+}
+.user{
+   margin-left:-500px;
+}
+.userp{
+    margin-left: -100px;
+}
+.computer{
+    margin-left: -550px;
+}
+.computerp{
+    margin-left: -150px;
+}
+.txt{
+    width: 300px;
+    position: relative;
+    right: 580px;
+    top: 200px;
+    font-size: 60px !important;
+    font-weight: 900 !important;
+}
+.btn1{
+    position: absolute;
+    left: 180px;
+    top: 710px;
+    width: 200px !important;
+}
+.rules{
+    margin-left:-500px;
+    margin-bottom: 20px;
+}
+}
