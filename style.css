@@ -103,7 +103,7 @@ section{
 .content{
     width: 90%;
     height: 38vh;
-    background-image: url(/images/bg-pentagon.svg);
+    background-image: url(bg-pentagon.svg);
     background-repeat: no-repeat;
     background-position-x: center;
     /* position: relative; */
@@ -159,6 +159,9 @@ button{
 }
 
 @media (max-width:410px) {
+    body{
+        /* zoom: 67%; */
+    }
     .content{
     width: 90%;
     height: 38vh;
