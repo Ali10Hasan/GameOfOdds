@@ -249,10 +249,13 @@ score=parseInt(localStorage.getItem("score"))||0;
 // استخدام setTimeout لإعادة تحميل الصفحة وتحديث score
   if (text.textContent === "You Win") {
         score++;
+       document.body.style.backgroundColor='green';
     } else if (text.textContent === "You Lose") {
         score--;
+       document.body.style.backgroundColor='red';
     }else{
         score+0;
+       document.body.style.backgroundColor='yellow';
     }
 
      // تحديث num بعد تغيير score
