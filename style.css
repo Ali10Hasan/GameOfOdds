@@ -160,7 +160,7 @@ button{
 
 @media (max-width:410px) {
     body{
-        /* zoom: 67%; */
+        zoom: 100%;
     }
     .content{
     width: 90%;
